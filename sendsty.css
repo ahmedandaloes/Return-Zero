@@ -1,0 +1,41 @@
+
+.wrap{
+	background-color:white;
+  padding:120px; 
+  font-size:26px;
+  color:#888;
+  width:800px;
+  height:800px ;
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  margin: 250px auto;
+  text-align:center;
+  border-radius:30px;
+  
+}
+.form1{
+      
+    width: 800px;
+    overflow: hidden;
+    margin: 100px auto;
+    background: #f1f1f1;
+}
+.form1 tr{
+  width:100%;
+  margin: 0px auto;
+}
+.form1 tr th{
+   background: #a0a0a0;
+   color: #fff !important; 
+   border-bottom: 1px solid #ff5407;
+
+}
+
+.forrm1 tr th ,.form1 tr td{
+margin: 20px auto;
+padding:10px;
+color: #999;
+font-family: 'Ubuntu';
+font-size: 26px;
+text-align: center;
+border-bottom: 1px solid #ff5407;
+}

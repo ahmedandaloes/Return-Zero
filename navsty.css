@@ -1,0 +1,59 @@
+body {
+  background-color: #666;
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  font-weight:300;
+  text-align: left;
+  text-decoration: none;
+  height: 500px;
+}
+header {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  border-bottom: 1px solid #e3e3e8;
+}
+#logo {
+  float: left;
+  font-size: 3em;
+  margin: 0;
+  padding: .4em;
+  text-decoration: none;
+  color: red;
+  border-right: 1px solid #e3e3e8;
+  transition: .5s all;
+}
+#logo:hover {
+  color: bloodyred;
+  background-color: #333;
+}
+nav {
+  float: center;
+  background-color: white;
+}
+nav ul li a:hover{color: #fafafa;
+  background-color: #666;
+}
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 2.2em 2em;
+}
+nav ul li {
+  display: inline;
+  padding: 60px ;
+  margin: 70px ;
+  
+  
+}
+nav ul li a {
+  color: #333;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 1.6em;
+ 
+  transition: .5s color;
+}
+nav ul:hover {
+  border-bottom: 3px solid #333;
+}
